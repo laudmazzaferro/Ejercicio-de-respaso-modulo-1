@@ -1,8 +1,29 @@
-@import 'core/settings';
-@import 'core/links';
+@import 'componentes/header';
+@import 'componentes/aside';
+@import 'componentes/mainpage';
+@import 'componentes/footer';
 
 body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
 	margin: 0;
 	height: 100vh;
+	@media all and (min-width:768px) {
+		background:linear-gradient(to right,grey 0%,grey 50%, white 50%, white 100%);
+		}	
+}
+.page{
+    box-sizing: border-box;
+    max-width:500px;
+	margin: auto;
+	background: white;
+	height: 100vh;
+	@media all and (min-width:768px) {
+		width: 100%;
+		margin-left:  20px;
+		margin-right:  20px;
+		}	
+}
+.main-aside{
+	@media all and (min-width:768px) {
+		display: flex
+		}		
 }

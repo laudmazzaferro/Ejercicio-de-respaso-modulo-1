@@ -1,0 +1,31 @@
+
+.image-circ{
+    border-radius:50%; 
+}
+.first-seccion{
+    display:flex; 
+    justify-content: center;
+    @media all and (min-width:768px) {
+        display: block;
+     }
+}
+.section-list{
+    list-style: none;
+    width:100%;
+}
+
+.autor-section{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    @media all and (min-width:768px) {
+        display: block;
+    }		
+}
+.autor-description{
+    width: 150px;
+}
+.category-list{
+    list-style: none;
+    width:100%;
+}
